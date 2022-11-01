@@ -1,15 +1,18 @@
 <template>
   
   <Header />
+  <Applications />
   
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
+import Applications from '@/components/Applications.vue'
 
 export default {
   components: {
-    Header
+    Header,
+    Applications
   }
 }
 </script>
